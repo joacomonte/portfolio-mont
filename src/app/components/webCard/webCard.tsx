@@ -23,6 +23,7 @@ const WebCard: React.FC<IWebCardContent> = ({
         objectFit="cover"
       />
       <div className={styles.webCard__content}>
+        <div>
         <p className={styles.webCard__title}>{title}</p>
         <p className={styles.webCard__subtitle}>{emphasisText}</p>
         <p className={styles.webCard__description}>{description}</p>
@@ -32,6 +33,7 @@ const WebCard: React.FC<IWebCardContent> = ({
             <li key={index}>{feature}</li>
           ))}
         </ul>
+        </div>
         <div className={styles.webCard__buttons}>
           <WebCardButton text="Go to Website" href={websiteLink}/>
           <WebCardButton text="Source Code" href={sourceCodeLink}/>

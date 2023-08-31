@@ -1,9 +1,10 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 6rem;
+  padding: 50px 1rem;
+  width: 100%;
   min-height: 100vh;
 }
 
@@ -41,9 +42,12 @@
 
 .grid {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
   gap: 50px;
+  margin: 40px;
   max-width: 100%;
-  width: var(--max-width);
 }
 
 .card {

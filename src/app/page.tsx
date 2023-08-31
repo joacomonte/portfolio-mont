@@ -1,14 +1,15 @@
 
 import WebCard from "./components/webCard/webCard";
 import styles from "./page.module.css";
-import webCards_Data from "./webCards_Data";
+import webCards_Content from "./webCards_Data";
 
 
 export default function Home() {
   return (
     <main className={styles.main}>
+      <h1 style={{margin:'50px', fontSize: '2.5rem'}}>My Projects</h1>
       <div className={styles.grid}>
-      {webCards_Data.map(content => (
+      {webCards_Content.map(content => (
           <div key={content.title} className={styles.webCard}>
             <WebCard {...content} />
           </div>
