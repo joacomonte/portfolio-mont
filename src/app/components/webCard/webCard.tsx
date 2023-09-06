@@ -42,5 +42,4 @@ const WebCard: React.FC<IWebCardContent> = ({
     </div>
   );
 }
-
 export default WebCard;
