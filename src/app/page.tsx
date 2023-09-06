@@ -1,6 +1,6 @@
 
 
-import WebCard from "./components/webCard/WebCard.tsx"
+
 import styles from "./page.module.css";
 import webCards_Content from "./webCards_Data";
 
