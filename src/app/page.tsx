@@ -1,5 +1,6 @@
 
-import WebCard from "./components/webCard/webCard";
+
+import WebCard from "./components/webCard/WebCard"
 import styles from "./page.module.css";
 import webCards_Content from "./webCards_Data";
 
