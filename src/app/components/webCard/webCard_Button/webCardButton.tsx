@@ -1,7 +1,7 @@
 'use client'
 
 import React from 'react';
-import styles from './WebCardButton.module.css'
+import styles from './webCardButton.module.css'
 import Link from 'next/link';
 
 type WebCardButtonProps = {
