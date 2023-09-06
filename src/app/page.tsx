@@ -3,7 +3,7 @@ import styles from "./page.module.css";
 import webCards_Content from "./webCards_Data";
 
 
-export default function Home() {
+export default function Page() {
   return (
     <main className={styles.main}>
       <h1 style={{margin:'50px', fontSize: '2.5rem'}}>My Projects</h1>
