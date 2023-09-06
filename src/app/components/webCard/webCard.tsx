@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import styles from './WebCard.module.css';
+import styles from './WebCard.module.css'
 
 
 import { IWebCardContent } from '@/app/interfaces/IWebCardConent';
