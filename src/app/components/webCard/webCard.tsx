@@ -1,8 +1,9 @@
 import Image from 'next/image';
 import styles from './WebCard.module.css';
 
-import WebCardButton from './webCard_Button/WebCardButton';
+
 import { IWebCardContent } from '@/app/interfaces/IWebCardConent';
+import WebCardButton from './webCard_Button/webCardButton';
 
 const WebCard: React.FC<IWebCardContent> = ({
   imageSrc,
