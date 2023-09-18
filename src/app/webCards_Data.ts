@@ -16,7 +16,7 @@ export const montesano: IWebCardContent = {
       "TypeScript integration",
       "Browser caching & prefetching"
     ],
-    websiteLink: "https://montesanoweb.com,ar",
+    websiteLink: "https://montesanoweb.com.ar",
     sourceCodeLink: "https://github.com/joacomonte/montesano-computacion"
   };
 
