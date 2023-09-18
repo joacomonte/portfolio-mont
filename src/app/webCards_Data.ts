@@ -1,6 +1,25 @@
 
 import { IWebCardContent } from './interfaces/IWebCardConent'
 
+export const montesano: IWebCardContent = {
+    imageSrc: "/mc-screenshot.png",
+    altText: "montesano",
+    title: "Computacion Catalog",
+    emphasisText: "Emphasis Areas",
+    description: "A lightweight, handcrafted e-commerce platform built on Next.js 13, seamlessly integrated with Google Cloud Spreadsheet, and optimized for modern web performance.",
+    features: [
+      "Minimal external libraries",
+      "Custom UI components & Tailwind styling",
+      "Google Cloud Spreadsheet sync",
+      "Next.js 13 server-side rendering",
+      "Dynamic recursive navigation",
+      "TypeScript integration",
+      "Browser caching & prefetching"
+    ],
+    websiteLink: "https://montesanoweb.com,ar",
+    sourceCodeLink: "https://github.com/joacomonte/montesano-computacion"
+  };
+
 export const montech_content: IWebCardContent = {
     imageSrc: "/cover-montech.png",
     altText: "montech",
@@ -141,6 +160,7 @@ export const fireBase_content: IWebCardContent = {
 
   const webCards_Content: IWebCardContent[] = 
   [
+    montesano,
     sideProject_content, 
     marlimCatalog_content, 
     copyPasty_content, 
