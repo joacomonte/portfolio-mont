@@ -1,8 +1,9 @@
 import Image from 'next/image';
 import styles from './WebCard.module.css'
 
-import { IWebCardContent } from '@/app/interfaces/IWebCardConent';
+
 import WebCardButton from './webCard_Button/WebCardButton';
+import { IWebCardContent } from '@/interfaces/IWebCardConent';
 
 
 const WebCard: React.FC<IWebCardContent> = ({
@@ -20,8 +21,10 @@ const WebCard: React.FC<IWebCardContent> = ({
       <Image
         src={imageSrc}
         alt={altText}
-        layout="fill"
-        objectFit="cover"
+        fill
+        style={{
+          objectFit: 'cover',
+        }}
       />
       <div className={styles.webCard__content}>
         <div>
